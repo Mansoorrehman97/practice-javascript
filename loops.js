@@ -67,15 +67,47 @@
 //     num++;
 // } while (num<=10);
 
-
 // for (var no = 12; no <=45; no++) {
-   
+
 //     console.log(no);
 // }
 
 // for (var no = 1; no<=10  ;no++) {
 //     var tableOf = 15;
 //     console.log(tableOf + "*" + no + "=" + tableOf * no);
+
+// }
+
+
+
+// var friends = ['aman' , "ahmed" , 5 , true];
+// for (var i = 0;  i<friends.length; i++) {
+//    console.log(friends[i]);
     
 // }
 
+
+// var friends = ['aman' , "ahmed" , 5 , true];
+// for (let elements in friends) {
+//     console.log(elements);
+        
+//     }
+
+
+// var friends = ['aman' , "ahmed" , 5 , true];
+// for (let elements of friends) {
+//     console.log(elements);
+        
+//     }
+
+
+// var friends = ['aman' , "ahmed" , 5 , true];
+// friends.forEach(function(element,index,array){
+// console.log(`${element} index = ${index} (${array})`);
+// });
+
+friends = ["ahmed" , "nazir" , "shahid" , "raza"];
+friends.forEach((element,index,array) => {
+    console.log(`${element} index = ${index} ${array}`);
+    
+});
