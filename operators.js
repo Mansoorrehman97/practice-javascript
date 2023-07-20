@@ -2,7 +2,7 @@
 // console.log(iAm);
 // console.log(typeof(iAm));
 
-const { availableParallelism } = require("os");
+//const { availableParallelism } = require("os");
 
 // var no = 12345;
 // var name = "asif";

@@ -128,14 +128,12 @@
 // let arr = Array.from(a);
 // console.log(arr);
 
-
 // let name = "ahmed"
 // let name1 = "shahid"
 // let arr = Array.from(name);
 // let arr1 = Array.from(name1);
 // console.log(arr1);
 // console.log(arr);
-
 
 //array map method
 
@@ -154,8 +152,7 @@
 // })
 // console.log(c);
 
-
- // reduce method in loops
+// reduce method in loops
 
 //  let a = [2,3,4,5,6];
 //  let b = a.reduce((h) => {
@@ -163,13 +160,147 @@
 //  })
 // console.log(b);
 
-let a = [2,3,4,5,6];
-let b = a.map((element , index , array)=>{
-    console.log(element*element);
+// let a = [2,3,4,5,6];
+// let b = a.map((element , index , array)=>{
+//     console.log(element*element);
 
-})
-let c = a.filter((element)=>{
-    return element*element < 5
-   
-})
-console.log(c);
+// })
+// let c = a.filter((element)=>{
+//     return element*element < 5
+
+// })
+// console.log(c);
+
+// let names = [12,23,4];
+// names.includes(12);
+// let a = names.find;
+
+// const names = ["aman" , "khan" , "shahid" , "shahji"];
+// const name1 = ["gul" , "sher" , "asif"];
+
+// console.log(names.concat(name1));
+
+// const names = ["aman" , "khan" , "shahid" , "shahji"];
+// for (let i = 0; i < names.length - 1; i++) {
+//     console.log(names[i]); ;
+
+// }
+
+// let names = ["gul" , "khan" , "sher" , "shahid"];
+// for (element of names) {
+//    console.log(element);
+//     }
+
+// let a = [12,122,24,3435,343];
+// a.forEach((values , index , arrays) =>{
+//     console.log(values*index);
+// })
+
+// let names = [23,4 , 12 , 123];
+// let num = names.map((element , index , array)=>{
+//     if (element==12) {
+//         return element;
+//        }
+
+//     return false;
+
+// })
+// console.log(num);
+
+// const a = [1,2,3,4,5,6,7,8,9,10];
+// const b = a.map((num)=>(num+10)).map((num)=>(num > 5))
+// console.log(b);
+
+// const a = [1,2,3,4,5,6,7,8,9,10];
+// let b = a.forEach((element)=>{
+// console.log(element+10);
+// })
+
+// const a=0;
+// if(a){
+//     console.log("i am a value")
+// }
+// else{
+//     console.log("i am a false value")
+// }
+
+// const a  = [0,"" ,null,undefined,1,2,34,"helo","munsif"," ",null]
+// let b = a.filter((element)=>{
+//     return element;
+// })
+// console.log(b);
+
+// const companies  = [
+//     {Companyname : "google" , online: "yes" , year: 1996},
+//     {Companyname : "facebook" , online: "no" , year: 2004},
+//     {Companyname : "youtube" , online: "yes" , year: 1990},
+// ]
+// let details = companies.filter((comp)=>{
+//     return comp.year > 2000
+// })
+
+// console.log(details);
+
+// const companies  = [
+//     {Companyname : "google" , online: "yes" , year: 1996},
+//     {Companyname : "facebook" , online: "no" , year: 2004},
+//     {Companyname : "youtube" , online: "yes" , year: 1990},
+// ]
+// let details = companies.filter((comp) => console.log( comp.year > 2000));
+// console.log(details);
+
+// const a=[1,2,3,3,4,4];
+// const b = a.filter((num,index)=>{
+//     return a.indexOf(num) == index
+// })
+// console.log(b);
+
+// const a=[1,2,3,3,4,4];
+// let b = a.forEach((num,index,array)=>{
+//     if () {
+
+//     }
+// })
+// console.log(b);
+
+// const nums = [1];
+// let array = [];
+// let a = nums.push((num)=>{
+//     return array
+// })
+// console.log(a);
+
+// const nums = [1];
+// const a = [nums];
+
+// console.log(a);
+
+// const nums = [0,1]
+// Output: [[0,1],[1,0]]
+// const a = [nums, [1,0]]
+// console.log(a);
+
+// const a = [8,1,30,1,2,7,3,4];
+// const b = a.filter((num,index)=>{
+// return a.indexOf(num) == index ;
+//  })
+//  b.sort((a,b)=> a-b)
+// console.log(b);
+
+// const a = [8,1,30,2,7,3,4];
+// [1,8,2,7,3,4,30]
+// [1,2,8,3,4,7,30]
+// [1,2,3,4,7,8,30]
+
+// const a = [1, 2, 3, 4, 7, 8, 15,2, 23, 455, 30 ,45];
+// let b = a.filter((num,index)=>{
+//     return num >=7 && num <=30
+// })
+// console.log(b);
+
+// const a = [1, 2, 3, 4, 7, 8, 15,2, 23, 455, 30 ,45];
+// let c = a.indexOf(30)
+// let b = a.slice(4,11)
+// console.log(b);
+// console.log(c);
+

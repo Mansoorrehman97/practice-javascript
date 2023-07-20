@@ -97,6 +97,9 @@
 
 
 
-var friends = ['aman' , "ahmed" , 5 , true , "ahmed"]
-console.log(friends[friends.length - 5]);
-console.log(friends.length);
+// var friends = ['aman' , "ahmed" , 5 , true , "ahmed"]
+// console.log(friends[friends.length - 5]);
+// console.log(friends.length);
+
+
+

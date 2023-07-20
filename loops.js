@@ -106,8 +106,9 @@
 // console.log(`${element} index = ${index} (${array})`);
 // });
 
-friends = ["ahmed" , "nazir" , "shahid" , "raza"];
-friends.forEach((element,index,array) => {
-    console.log(`${element} index = ${index} ${array}`);
+// friends = ["ahmed" , "nazir" , "shahid" , "raza"];
+// friends.forEach((element,index,array) => {
+//     console.log(`${element} index = ${index} ${array}`);
     
-});
+// });
+
