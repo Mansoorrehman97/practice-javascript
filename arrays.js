@@ -304,3 +304,43 @@
 // console.log(b);
 // console.log(c);
 
+
+// const a = ["NY" , "LA" , "TX"]
+// let b = a.map((elements , index , array)=>{
+//     return elements.toLowerCase()
+// })
+// console.log(b);
+
+
+// const num = [23,45,67,89,56,78,45]
+// let b = num.filter((values)=>{
+//     return values > 50+7
+// })
+// console.log(b);
+
+// const a = ["ahmed","Shahid","raja","babar"]
+// let b = a.map((elements)=>{
+// return elements.length
+// })
+// console.log(b);
+
+// const a = [1,3,45,7,234,4536,34]
+// let b = a.reduce((num,acc)=>{
+//     return num + acc
+// })
+// console.log(b);
+
+// const input = [1, -4, 12, 0, -3, 29, -150];
+// let a = input.filter((num)=>{
+//     return num > 0
+// })
+// let b = a.reduce((currentValue,accumilator)=>{
+//     return accumilator + currentValue 
+// })
+// console.log(b);
+
+const input = [1, 2, 3, 4, 5];
+let a = input.map((num)=>{
+    return Math.pow(num ,3)
+})
+console.log(a);
