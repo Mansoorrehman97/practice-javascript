@@ -124,38 +124,54 @@
 // console.log(Product1);
 // console.log(Product2);
 
-const o = [
-  {
-    name: "munsif",
-    marks: [55, 77, 90, 66, 72], // false
-  },
-  {
-    name: "mansoor",
-    marks: [45, 8, 90, 66, 72],
-  },
-  {
-    name: "umer",
-    marks: [34, 77, 90, 66, 72],
-  },
-  {
-    name: "abraz",
-    marks: [78, 88, 90, 66, 72],
-  },
-];
+// const o = [
+//   {
+//     name: "munsif",
+//     marks: [55, 77, 90, 66, 72], // false
+//   },
+//   {
+//     name: "mansoor",
+//     marks: [45, 8, 90, 66, 72],
+//   },
+//   {
+//     name: "umer",
+//     marks: [34, 77, 90, 66, 72],
+//   },
+//   {
+//     name: "abraz",
+//     marks: [78, 88, 90, 66, 73],
+//   },
+// ];
+// let result = []
 
+// for (let i = 0; i < o.length; i++) {
+// for (let j = 0; j < o[i].marks.length; j++) {
+//   if (o[i].marks[j] < 50) {
+//     result.push(o[i]);
+//     break;
+//   }
+// }
+// }
+// console.log(result);
 
-const passedStudents=o.filter((student)=>{
-  if(!student.marks.some((mark)=>mark<50)){
-    return student;
-  }else{
-    return null
-  }
-})
+// const passedStudents=o.filter(({name,marks}) => {
+//   const isUserPassed=marks.find((marks)=>marks<50)
+//   if (!isUserPassed) {
+//     return name;
+//   }else{
+//     return null;
+//   }
+// }).map((passedUsers)=>passedUsers.name)
 
-console.log(passedStudents)
+// const passedStudents=o.filter((student)=>{
+//   if(!student.marks.some((mark)=>mark<50)){
+//     return student;
+//   }else{
+//     return null
+//   }
+// })
 
-
-
+// console.log(passedStudents)
 
 // let xz = []
 // let res = []
@@ -165,7 +181,7 @@ console.log(passedStudents)
 //   for (let j = 0; j <= 4;j++) {
 //     if ((o[i].marks[j] < 50)) {
 //       m = false;
-//     }  
+//     }
 //   }
 //   if (m == true) {
 //     res.push(o[i]);
@@ -181,3 +197,114 @@ console.log(passedStudents)
 // })
 // console.log(a);
 
+// debugger;
+// let bob = { name: 'Bob', age: 22 };
+// let studentBob = Object.create(bob);
+// studentBob.year = 'Senior';
+
+// console.log(studentBob.name); // => 'Bob'
+
+// let fruits = { names : "Mango" , sour : "yes"}
+// let person = { name: 'Bob', age: 30, height: '6ft' };
+// console.log(Object.keys(person));
+// console.log(Object.values(person));
+// console.log(Object.entries(person)); // => [[ 'name', 'Bob' ], [ 'age', 30 ], [ 'height', '6ft' ]]
+// console.log(Object.assign(person,fruits,));
+
+// let person = {
+//   name:       'Bob',
+//   occupation: 'web developer',
+//   hobbies:    'painting',
+// };
+// console.log(person.name);
+
+// let myArray = {
+//    0 : "mansoor",
+//    1 : 20,
+//    2 : "yes",
+//    length:3
+//   };
+
+// for (let i = 0; i < myArray.length; i++) {
+//   console.log(myArray[i]);
+// }
+
+// let myArray = {
+//   0: 'a',
+//   1: 'b',
+//   2: 'c',
+//   length: 3,
+// };
+
+// for (let i = 0; i < myArray.length; i += 1) {
+//   console.log(myArray[i]);
+// }
+
+// let obj = {
+//   b: 2,
+//   a: 1,
+//   c: 3,
+// };
+// let objKeys = Object.keys(obj)
+// let upperCase = objKeys.map((key) =>{
+//   return key.toUpperCase()
+// });
+// console.log(upperCase);
+
+// let myProtoObj = {
+//   foo: 1,
+//   bar: 2,
+// };
+
+// let myObj = Object.create(myProtoObj);
+
+// console.log(myObj);
+
+// let obj = {
+//   foo: { a: "hello", b: "world" },
+//   bar: ["example", "mem", null, { xyz: 6 }, 88],
+//   qux: [4, 8, 12]
+// };
+
+// obj.bar[3].xyz = 606
+
+// console.log(obj);
+
+// const array = [1, 2, 3, [4, 5, 6, [7, 8, 9], [10, 11, 12]]];
+
+// const a = "munsiff" ;
+// for (let i = 0; i < a.length; i++) {
+// if (a[i]=="f") {
+//    let b = a[i]+a[i]
+//     console.log(b.length);
+//     break;
+// }
+// }
+
+// const a = "munsifffff" ;
+// let b = 0
+// for (let i = 0; i < a.length; i++) {
+// if (a[i]=="f") {
+//    b++;
+// }
+// }
+// console.log(b);
+
+// let a = array.flatMap((num) => {
+//   return num;
+// }).flatMap((num)=> num)
+// console.log(a);
+
+// let txt = "dsakdhdas";
+// let pos = txt.indexOf("h");
+// console.log(pos);
+
+// debugger;
+// let txt = "I eat apples the whole day";
+// let x = txt.slice(6, 12);
+// console.log(x);
+
+let txt = "Hello World";
+txt = txt.replace("Hello", "Hi");
+
+console.log(txt);
