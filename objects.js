@@ -304,7 +304,145 @@
 // let x = txt.slice(6, 12);
 // console.log(x);
 
-let txt = "Hello World";
-txt = txt.replace("Hello", "Hi");
+// let txt = "Hello World";
+// txt = txt.replace("Hello", "Hi");
 
-console.log(txt);
+// console.log(txt);
+
+
+// const num = (a,b) => a===100||b===100||(a+b)===100
+
+// console.log(num(100,0));
+// console.log(num(0,100));
+// console.log(num(70,10));
+
+// let firstName = 'lata'
+// console.log(firstName);
+
+// function hello() {
+//     return 'Hello World!'
+// }
+// console.log(hello());
+
+// function a() {
+//     return "Hello a!"
+// }
+// function b() {
+//     return "Hello b!"
+// }
+// console.log(a(),b());
+
+// function greet() {
+//     return "Haydo!"
+// }
+// let salutation = greet()
+// console.log(salutation);
+
+// function echo(sound) {
+//     return sound;
+//   }
+//   console.log(echo("echo"));
+
+// function greet(name) {
+//     return "hello "+ name +"!"
+// }
+// console.log(greet("raza"));
+
+// function log() {
+//     console.log('Hello Console');
+//   }
+// log()
+// function log(value) {
+//     console.log(value);
+//   }
+//   log('Ken Thompson')
+
+// function shout(word) {
+//     let r = word+word;
+//    console.log(r);
+//    return r;
+//    }
+//    shout('run');
+
+// function length(word) {
+//     return word.length
+   
+// }
+// console.log(length("sun"))
+
+
+// function toCase(word) {
+//     return word.toLowerCase() + "-" + word.toUpperCase()
+// }
+// console.log(toCase("Mthatha"));
+
+
+// function shortcut(words,text){
+//     return words.charAt(0) + text.charAt(0)
+// }
+// console.log(shortcut("a1","a2"));
+
+// function  firstChar(word) {
+//     let a = word.trim();
+//     return a.charAt(0);
+//  }
+// function firstChar(word) {
+//     let a = word.trim();
+//     return a.charAt(0);
+//   }
+// console.log(firstChar(' Rosa Parks '));
+
+// let n1 = 'bit'.indexOf('js');
+// console.log(n1);
+
+// function indexOfIgnoreCase(word,text) {
+//     // let a = word.toLowerCase();
+//     let b = text.toLowerCase();
+//     return word.indexOf(b)
+// }
+// console.log(indexOfIgnoreCase("bit","IT"));
+
+
+// function firstWord(s) {
+//     let a = s.indexOf(" ")
+//     return s.substr(0,a)
+// }
+// console.log(firstWord("see ans stop"));
+
+// function normalize(date) {
+//     let a = date.replace('-' , '/')
+//     return a.replace('-','/');
+// }
+// console.log(normalize("2-3-2020"));
+
+
+// function add(num1,num2) {
+//     return num1+num2;
+// }
+// console.log(add(1,3));
+
+// for (let a = 1; a<=10; a++){
+//     tableOf = 23
+// console.log(tableOf + " * " + a + " = " + tableOf*a);
+// }
+
+// function toFahrenheit(celsius){
+//     return F = 1.8 * celsius + 32
+// }
+// console.log(toFahrenheit(10));
+
+// function onesDigit(num) {
+//     return num % 10
+// }
+// console.log(onesDigit(2676));
+
+// function mean(n1,n2) {
+//     return (n1+n2)/2
+// }
+// console.log(mean(1,3));
+
+function hypotenuse(n1,n2) {
+    let n3 = Math.pow(n1,2) + Math.pow(n2,2)
+    return Math.sqrt(n3)
+}
+console.log(hypotenuse(3,4));
