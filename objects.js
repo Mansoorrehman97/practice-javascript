@@ -441,8 +441,13 @@
 // }
 // console.log(mean(1,3));
 
-function hypotenuse(n1,n2) {
-    let n3 = Math.pow(n1,2) + Math.pow(n2,2)
-    return Math.sqrt(n3)
-}
-console.log(hypotenuse(3,4));
+// function hypotenuse(n1,n2) {
+//     let n3 = Math.pow(n1,2) + Math.pow(n2,2)
+//     return Math.sqrt(n3)
+// }
+// console.log(hypotenuse(3,4));
+
+
+
+
+
